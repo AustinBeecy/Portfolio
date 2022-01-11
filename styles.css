@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background-image: url("img/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 1.3;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+article {
+  margin: 0;
+}
+
+a {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.welcome-container {
+  height: 100vh;
+}
+.neons {
+  padding-top: 20rem;
+  text-align: center;
+}
+.neons h1 {
+  font-size: 9rem;
+  text-align: center;
+  font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+.neons h3 {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+.neons p {
+  color: gray;
+  font-size: 32px;
+  font-weight: bold;
+}
+@-webkit-keyframes glow {
+  from {
+    color: #fff;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000,
+      0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000,
+      0 0 90px #ff0000;
+  }
+
+  to {
+    color: #808080;
+    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000,
+      0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000,
+      0 1 90px #ff0000;
+  }
+}
+.about-container {
+  height: 100vh;
+  background-color: rgb(60, 60, 60);
+  padding-top: 200px;
+}
+.my-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-image: url("img/whiteCanvas.jpg");
+}
