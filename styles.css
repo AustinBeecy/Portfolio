@@ -122,7 +122,8 @@ a {
   border-radius: 200px;
   background-image: url("img/whiteCanvas.jpg");
   margin-bottom: 25px;
-  border: 8px solid black;
+  border: 5px solid black;
+  padding: 0;
 }
 .bio-links {
   display: flex;
